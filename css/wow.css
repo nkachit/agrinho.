@@ -141,7 +141,7 @@ h2 {
     margin-right: 25%;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
    body {
     background-color: lightblue;
    }

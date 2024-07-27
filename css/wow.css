@@ -268,4 +268,7 @@ video {
     .imagem5 {
         max-width: 30%;
     }
+    .hidden {
+        display: none;
+    }
 }

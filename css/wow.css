@@ -12,32 +12,33 @@ html, body {
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 125%;
-    background-color: #ccff99;
+    background-color: #e0f2f1;
 }
 
 p, li {
-    color: #000000;
+    color: #263238;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
     text-align: center;
     padding-top: 30px;
+    font-family: initial;
 }
 
 #header {
     width: 100%;
     margin: 0 auto;
-    border-left: 1px solid rgb(0, 0, 0);
-    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid #004d40;
+    border-right: 1px solid #004d40;
     overflow-x: hidden;
     position: relative; 
-    background-color: #008a1e9e; 
+    background-color: #004d40; 
 }
 
 .titulo {
-    background-color: #008a1e9e;
-    color: #000000;
+    background-color: #004d40;
+    color: #ffffff;
     text-align: center;
     margin: 0;
     padding: 1% 0; 
@@ -47,14 +48,14 @@ h2 {
 
 .subtitulo {
     text-align: center;
-    color: #000000;
+    color: #263238;
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #principal {
-    background-color: #42681c66;
-    padding: 2%;
+    background-color: #b2dfdb;
+    padding: 1%;
 }
 
 #menu {
@@ -62,29 +63,29 @@ h2 {
     padding: 0;
     margin: 0;
     overflow: hidden; 
-    background-color: #3a6f33; 
+    background-color: #00796b; 
 }
 
 #menu li {
     float: left;
     width: 16.667%;
     text-align: center;
-    background-color: #3a6f33;
-    border-bottom: 1px solid rgb(0, 0, 0);
-    border-top: 1px solid rgb(0, 0, 0);
+    background-color: #00796b;
+    border-bottom: 1px solid #004d40;
+    border-top: 1px solid #004d40;
 }
 
 #menu li a {
     text-decoration: none;
-    color: #402a23;
+    color: #ffffff;
     font-weight: bold;
     padding: 5% 0; 
     display: block;
 }
 
 #menu li a:hover {
-    color: #000000;
-    background-color: #014204;
+    color: #004d40;
+    background-color: #ffffff;
 }
 
 .menu-icon {
@@ -94,7 +95,7 @@ h2 {
     position: absolute;
     top: 1rem; 
     right: 1rem;
-    background-color: #008a1e9e; 
+    background-color: #004d40; 
     border: none; 
     color: #ffffff;
     z-index: 100; 
@@ -107,22 +108,22 @@ h2 {
     border: solid;
     border-radius: 10px;
     border-width: 1px;
-    border-color: #000000;
+    border-color: #004d40;
     text-align: center;
-    background-color: #a5ee1d;
+    background-color: #a5d6a7;
 }
 
 .centraliza {
     text-align: center;
     margin: 2rem;
-    color: #000000;
+    color: #263238;
 }
 
 .justify {
     text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
-    color: #000000;
+    color: #263238;
 }
 
 .imagem {
@@ -133,7 +134,7 @@ h2 {
     border-radius: 10px;
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(1, 66, 4);
+    border-color: #004d40;
 }
 
 .imagem2 {
@@ -144,7 +145,7 @@ h2 {
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
-    border-color: rgb(1, 66, 4);
+    border-color: #004d40;
 }
 
 .imagem3 {
@@ -155,7 +156,7 @@ h2 {
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
-    border-color: rgb(1, 66, 4);
+    border-color: #004d40;
 }
 
 .imagem4 {
@@ -166,7 +167,7 @@ h2 {
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
-    border-color: rgb(1, 66, 4);
+    border-color: #004d40;
 }
 
 .imagem5 {
@@ -178,8 +179,7 @@ h2 {
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
-    border-color: rgb(1, 66, 4);
-}
+    border-color: rgb(1, 66, 4)#004d40
 
 .video-container {
     text-align: center;
